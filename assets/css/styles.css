@@ -194,6 +194,12 @@ body.dark-theme {
   margin-bottom: 1rem;
 }
 
+.email__profession {
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+  color: var(--text-color);
+}
+
 .profile__social {
   display: flex;
   justify-content: center;
@@ -516,6 +522,10 @@ body.dark-theme {
   }
   .profile__profession {
     margin-bottom: 1.5rem;
+  }
+  
+    .email__profession {
+    margin-bottom: 0rem;
   }
   .profile__info {
     column-gap: 3rem;
